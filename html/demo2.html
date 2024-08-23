@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper{
+            height: 1089px;
+            width: 600px;
+            background-color: blanchedalmond;
+            margin: auto;
+        }
+        header{
+            height: 10%;
+            background-color: aquamarine   ;
+        }
+        nav{
+            height: 5%;
+            background-color: violet;
+            margin: 0px;
+        }
+        nav ul{
+            display: flex;
+            
+        }
+        .content{
+            display: flex;
+            background-color: brown;
+            height: 30%;
+        }
+        .menu-left {
+            background-color: greenyellow;
+            width: 20%;
+        }
+        .menu-left ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .content-right{
+            background-color: blue;
+            width: 40%;
+        }
+        .content-left{
+            background-color: goldenrod;
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Gmail</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Headerrrrrr</h1>
+        </header>
+        <div class="content">
+            <div class="menu-left">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Gmail</a></li>
+                </ul>
+            </div>
+            <div class="content-right"></div>
+            <div class="content-left"></div>
+        </div>
+        <footer>
+            <h1>Footer</h1>
+        </footer>
+    </div>
+</body>
+</html>
